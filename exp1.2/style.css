@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 250px;
+}
+.balance {
+    font-size: 24px;
+    color: green;
+    margin-bottom: 20px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.deposit {
+    background-color: #28a745;
+}
+.withdraw {
+    background-color: #dc3545;
+}
+@media (max-width: 500px) {
+    .card {
+        width: 80%;
+    }
+}

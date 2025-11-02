@@ -1,0 +1,45 @@
+.library-container {
+  border: 1px solid #000;
+  padding: 20px;
+  width: 500px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.library-container h2 {
+  margin-bottom: 10px;
+}
+
+.library-container input {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+.add-book {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.book-list {
+  margin-top: 10px;
+}
+
+.book-item {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-item strong {
+  font-weight: bold;
+}

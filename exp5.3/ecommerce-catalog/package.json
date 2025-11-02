@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce-catalog",
+  "version": "1.0.0",
+  "description": "E-Commerce Catalog using MongoDB and MVC Architecture",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0",
+    "nodemon": "^3.1.0"
+  }
+}

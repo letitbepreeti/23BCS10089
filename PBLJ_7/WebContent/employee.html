@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Portal</title>
+</head>
+<body>
+    <h2>Search Employee</h2>
+    <form action="EmployeeServlet" method="get">
+        Enter Employee ID: <input type="text" name="empid">
+        <input type="submit" value="Search">
+    </form>
+    <hr>
+    <form action="EmployeeServlet" method="get">
+        <input type="hidden" name="viewAll" value="true">
+        <input type="submit" value="View All Employees">
+    </form>
+</body>
+</html>
